@@ -26,7 +26,7 @@ Executez les commandes suivantes :
 
 Vous aurez besoin d'une base de donnée MySql qui tourne sur le port 3306 de votre machine locale
 
-Si vous n'avez pas de base de données MySql sur votre machine locale, installez Docker Desktop et remplacez l'étape 9 par la commande suivante : 
+Si vous n'avez pas de base de données MySql sur votre machine locale, installez Docker Desktop et remplacez l'étape 11 par la commande suivante : 
 
 11 - docker-compose up -d
 
