@@ -4,10 +4,6 @@
 
 <x-app-layout>
 
-    <x-slot name="additionnalStyles">
-        <link rel="stylesheet" href="build/assets/truc.css">
-    </x-slot>
-
     <div class="py-12">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div>
