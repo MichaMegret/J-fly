@@ -32,12 +32,22 @@ Si vous n'avez pas de base de données MySql sur votre machine locale, installez
 
 Vous aurez alors un container Docker qui tourne sur l'URL 127.0.0.1.
 
-Pour que cela fonctionne vous devrez modifier votre fichier .env, remplacez la ligne
+Ensuite relancez les migrations : 
+
+12 - php artisan migrate
+
+13 - php artisan db:seed
+
+Pour que cela fonctionne vous devrez ensuite modifier votre fichier .env, remplacez la ligne
 
 DB_HOST=1227.0.0.1
  
 par
 
 DB_HOST=mysql
+
+Si la connection échoue, essayez de de modifier le mot de passe pour la connection dans le fichier .env avec la valeur 'password'
+
+DB_PASSWORD=password
 
 Et voila, c'est installé!
